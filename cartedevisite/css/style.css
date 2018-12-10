@@ -1,0 +1,71 @@
+body{
+       border:1px solid black;
+       width:600px;
+       height:300px;
+    }
+
+.image{
+   position: relative;
+    width: 600px;
+    height:300px;
+
+}
+.text{
+    position: absolute; 
+   top: 10px; 
+   left: 195px; 
+font-style:italic;
+    font-family: fantasy;
+    font-size: 30px;
+   color: white;
+}
+.name{
+   position: absolute;
+    top: 30px;
+    left: 25px;
+    color:white;
+}
+.mail{
+     position: absolute; 
+     width: 30px;
+     top:250px;
+     left: -165px;
+   
+
+}
+.monmail{
+    position: absolute;
+     width: 30px;
+    top: 230px;
+    left: -120px;
+    font-size: 20px;
+    color: white;
+}
+.phone{
+     position: absolute; 
+     width: 30px;
+     top:-15px;
+     left: -45px;
+}
+.tel{
+    position: absolute;
+     width: 30px;
+     top:-30px;
+     left: 1px;
+    font-size: 20px;
+    color: white;
+}
+.imweb{
+    position: absolute; 
+     width: 30px;
+     top:50px;
+     right: -235px;
+}
+.web{
+     position: absolute;
+     width: 30px;
+    top: 32px;
+    right: -275px;
+    font-size: 20px;
+    color: white;
+}
